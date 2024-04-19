@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Cotiza tu producto</h1>
+    <section class="price" id="userQuote">
+
+        <div  class="inputPrice">
+            Ingresa el valor del producto a comprar 
+            <input type="number" id="inputPrice">
+        </div>
+        <div class="selectPrice">
+            <p> Elije tu Plan</p>
+            <select name="plan" id="plan">
+                <option value="0">Seleciona</option>
+                <option value="0.0274"> Plan 24 horas</option>
+                <option value="0.0259">Plan 72 horas</option>
+            </select>
+        </div>
+
+        <div class="finalQuote"> 
+            <button id="calculateButton">Cotizar</button>
+            <strong>Tu comisión es:</strong>
+            <div id="result" class="result"> $</div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

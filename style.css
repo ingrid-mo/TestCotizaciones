@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 38vw;
+    font-family: sans-serif ;
+    
+}
+input, select{
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #79A637;
+    justify-content: space-around;
+    height: 25vw;
+    color: #fff;
+    width: 60%;
+    font: 24px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.inputPrice, .selectPrice {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+
+}
+button{  
+      width: 22vw;
+    color: #fff;
+    background: #262626;
+    
+    border: none;
+    height: 3vw;
+    border-radius: 10px;}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    color: #262626;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.finalQuote{
+    display: flex;
+    flex-direction: column;
+    height: 10vw;
+    text-align: center;
+    justify-content: space-around;
+}
